@@ -418,6 +418,52 @@
     },
     {
         "exitcode": 0,
+        "id": "136.7611",
+        "known_error": 0,
+        "name": "RunJetHT2016E_reminiaod+RunJetHT2016E_reminiaod+REMINIAOD_data2016_HIPM+HARVESTDR2_REMINIAOD_data2016_HIPM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 687
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.7721",
+        "known_error": 0,
+        "name": "RunJetHT2016H_reminiaod+RunJetHT2016H_reminiaod+REMINIAOD_data2016+HARVESTDR2_REMINIAOD_data2016",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 424
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.7722",
         "known_error": 0,
         "name": "RunJetHT2016H_nano+RunJetHT2016H_nano+NANOEDM2016_80X+HARVESTNANOAOD2016_80X",
@@ -608,6 +654,29 @@
     },
     {
         "exitcode": 0,
+        "id": "513.0",
+        "known_error": 0,
+        "name": "WTolNuJets_LO_Mad_13TeV_py8+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "514.0",
         "known_error": 0,
         "name": "GGToHgg_NLO_Pow_13TeV_py8+GGToH_Pow_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_Hgg_powhegEmissionVeto_pythia8+HARVESTGEN2",
@@ -654,6 +723,52 @@
     },
     {
         "exitcode": 0,
+        "id": "517.0",
+        "known_error": 0,
+        "name": "VHToHtt_NLO_Pow_13TeV_py8_taupinu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_Httpinu_powhegEmissionVeto_pythia8+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "519.0",
+        "known_error": 0,
+        "name": "WTolNuJets_LO_Mad_13TeV_py8_taurhonu+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_taurhonu+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 10
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "520.0",
         "known_error": 0,
         "name": "VHToHtt_NLO_Pow_13TeV_py8_taurhonu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_Httrhonu_powhegEmissionVeto_pythia8+HARVESTGEN2",
@@ -667,6 +782,144 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 22
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "521.0",
+        "known_error": 0,
+        "name": "WTolNuJets_LO_Mad_13TeV_py8_Ta+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "524.0",
+        "known_error": 0,
+        "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_Htt_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "525.0",
+        "known_error": 0,
+        "name": "WTolNuJets_LO_Mad_13TeV_py8_Ta_taupinu+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taupinu+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 27
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "527.0",
+        "known_error": 0,
+        "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta_taupinu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_Httpinu_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "528.0",
+        "known_error": 0,
+        "name": "WTolNuJets_LO_Mad_13TeV_py8_Ta_taurhonu+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taurhonu+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 16
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "530.0",
+        "known_error": 0,
+        "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta_taurhonu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_Httrhonu_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
             },
             {
                 "errors": 0,
@@ -1048,6 +1301,85 @@
                 "errors": 72,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1311.0",
+        "known_error": 0,
+        "name": "MinBias_13+MinBias_13INPUT+DIGIUP15+RECOMINUP15+HARVESTMINUP15+ALCAMINUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 83
+            },
+            {
+                "errors": 75,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
+            },
+            {
+                "errors": -1,
+                "status": "PASSED",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1325.3",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13INPUT+DIGIUP15+RECOUP15_trackingOnlyLowPU+HARVESTUP15_trackingOnly",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 181
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 224
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 10
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1325.6",
+        "known_error": 0,
+        "name": "TTbar_13_94XNanoAODINPUT+TTbar_13_94XNanoAODINPUT+NANOAODMC2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 207
             }
         ]
     },
