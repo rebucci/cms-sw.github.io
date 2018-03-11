@@ -631,6 +631,46 @@
     },
     {
         "exitcode": 0,
+        "id": "4.45",
+        "known_error": 0,
+        "name": "RunJet2012A+RunJet2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.55",
+        "known_error": 0,
+        "name": "RunJet2012B+RunJet2012B+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.6",
         "known_error": 0,
         "name": "MinimumBias2010A+MinimumBias2010A+RECOSKIMALCA+HARVESTDR1",
@@ -682,6 +722,26 @@
     },
     {
         "exitcode": 0,
+        "id": "4.64",
+        "known_error": 0,
+        "name": "RunEl2012C+RunEl2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.65",
         "known_error": 0,
         "name": "RunJet2012C+RunJet2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
@@ -705,6 +765,46 @@
                 "errors": 73,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.71",
+        "known_error": 0,
+        "name": "RunMinBias2012D+RunMinBias2012D+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.73",
+        "known_error": 0,
+        "name": "RunPhoton2012D+RunPhoton2012D+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
@@ -1057,6 +1157,26 @@
                 "errors": 72,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "9.0",
+        "known_error": 0,
+        "name": "Higgs200ChargedTaus+Higgs200ChargedTausINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
@@ -4179,6 +4299,23 @@
     },
     {
         "exitcode": 0,
+        "id": "136.7611",
+        "known_error": 0,
+        "name": "RunJetHT2016E_reminiaod+RunJetHT2016E_reminiaod+REMINIAOD_data2016_HIPM+HARVESTDR2_REMINIAOD_data2016_HIPM",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.7801",
         "known_error": 0,
         "name": "RunHLTPhy2017B_AOD+RunHLTPhy2017B_AOD+DQMHLTonAOD_2017+HARVESTDQMHLTonAOD_2017",
@@ -4266,6 +4403,46 @@
                 "errors": 31,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.791",
+        "known_error": 0,
+        "name": "RunNoBPTX2017B+RunNoBPTX2017B+HLTDR2_2017+RECODR2_2017reHLTAlCaTkCosmics_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.816",
+        "known_error": 0,
+        "name": "RunHLTPhy2017E+RunHLTPhy2017E+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
@@ -8531,6 +8708,26 @@
     },
     {
         "exitcode": 0,
+        "id": "139901.0",
+        "known_error": 0,
+        "name": "ZMM_13_HS+ZMM_13_HSINPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "139902.0",
         "known_error": 0,
         "name": "TTbar_13_HS+TTbar_13_HSINPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -8605,6 +8802,26 @@
                 "errors": 28,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250207.0",
+        "known_error": 0,
+        "name": "NuGun_UP15+NuGun_UP15INPUT+DIGIPRMXUP15_PU25+RECOPRMXUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },

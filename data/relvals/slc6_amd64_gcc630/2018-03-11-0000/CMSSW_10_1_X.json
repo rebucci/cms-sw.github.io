@@ -1,6 +1,29 @@
 [
     {
         "exitcode": 0,
+        "id": "126.0",
+        "known_error": 0,
+        "name": "SingleElectronFlatPt5To100+SingleElectronFlatPt5To100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 39
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 543
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "135.1",
         "known_error": 0,
         "name": "TTbar_13+TTbarFS_13+HARVESTUP15FS+MINIAODMCUP15FS",
