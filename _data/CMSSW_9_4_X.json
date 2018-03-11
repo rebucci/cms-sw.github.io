@@ -68,9 +68,11 @@
                 }, 
                 {
                     "arch": "slc7_amd64_gcc630", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-03-11-0000/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-03-11-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2018-03-11-0000-0000", 
