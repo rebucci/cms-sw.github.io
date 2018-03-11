@@ -3107,7 +3107,7 @@
                 ]
             }, 
             "cmsdistTags": {
-                "slc7_amd64_gcc630": "IB/CMSSW_10_1_X_2018-03-04-0000/slc7_amd64_gcc630", 
+                "slc7_amd64_gcc630": "Not Found", 
                 "slc7_amd64_gcc700": "IB/CMSSW_10_1_X_2018-03-04-2300/slc7_amd64_gcc700", 
                 "slc6_amd64_gcc630": "IB/CMSSW_10_1_X_2018-03-04-0000/slc6_amd64_gcc630", 
                 "slc6_amd64_gcc700": "IB/CMSSW_10_1_X_2018-03-04-2300/slc6_amd64_gcc700", 
@@ -3354,7 +3354,7 @@
             }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_10_1_X_2018-03-04-2300/slc7_amd64_gcc700", 
-                "slc7_amd64_gcc630": "IB/CMSSW_10_1_X_2018-03-04-0000/slc7_amd64_gcc630", 
+                "slc7_amd64_gcc630": "Not Found", 
                 "slc7_aarch64_gcc700": "ERR/CMSSW_10_1_X_2018-03-04-2300/slc7_aarch64_gcc700", 
                 "slc6_amd64_gcc630": "IB/CMSSW_10_1_X_2018-03-04-0000/slc6_amd64_gcc630", 
                 "slc6_amd64_gcc700": "IB/CMSSW_10_1_X_2018-03-04-2300/slc6_amd64_gcc700"
@@ -3735,7 +3735,6 @@
         {
             "comp_baseline_state": "ok", 
             "tests_archs": [
-                "slc7_amd64_gcc630", 
                 "slc6_amd64_gcc630", 
                 "slc6_amd64_gcc700"
             ], 
@@ -3776,14 +3775,6 @@
                     }
                 }, 
                 {
-                    "arch": "slc7_amd64_gcc630", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-04-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "1"
-                    }
-                }, 
-                {
                     "arch": "slc6_amd64_gcc700", 
                     "passed": "failed", 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-04-0000/unitTests-summary.log", 
@@ -3802,17 +3793,6 @@
                     "details": {
                         "num_passed": 2254, 
                         "known_failed": 0, 
-                        "num_failed": 13
-                    }
-                }, 
-                {
-                    "done": true, 
-                    "arch": "slc7_amd64_gcc630", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 2218, 
-                        "known_failed": 12, 
                         "num_failed": 13
                     }
                 }, 
@@ -4071,14 +4051,6 @@
                     }
                 }, 
                 {
-                    "arch": "slc7_amd64_gcc630", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-04-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 5
-                    }
-                }, 
-                {
                     "arch": "slc6_amd64_gcc700", 
                     "passed": "warning", 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-04-0000/new/logAnalysis.pkl", 
@@ -4104,12 +4076,6 @@
                     "arch": "slc6_amd64_gcc630", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-04-0000/addOnTests.log", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc7_amd64_gcc630", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-04-0000/addOnTests.log", 
                     "details": {}
                 }, 
                 {
