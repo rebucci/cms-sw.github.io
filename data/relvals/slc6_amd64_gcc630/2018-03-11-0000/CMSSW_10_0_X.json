@@ -332,6 +332,26 @@
     },
     {
         "exitcode": 0,
+        "id": "4.41",
+        "known_error": 0,
+        "name": "RunTau2012A+RunTau2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.44",
         "known_error": 0,
         "name": "RunElectron2012A+RunElectron2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
@@ -472,6 +492,26 @@
     },
     {
         "exitcode": 0,
+        "id": "4.63",
+        "known_error": 0,
+        "name": "RunPhoton2012C+RunPhoton2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.64",
         "known_error": 0,
         "name": "RunEl2012C+RunEl2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
@@ -523,6 +563,46 @@
                 "errors": 71,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.67",
+        "known_error": 0,
+        "name": "ZElSkim2012C+ZElSkim2012C+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.71",
+        "known_error": 0,
+        "name": "RunMinBias2012D+RunMinBias2012D+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
@@ -13314,6 +13394,26 @@
                 "errors": 33,
                 "status": "PASSED",
                 "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25204.0",
+        "known_error": 0,
+        "name": "QQH1352T_13+QQH1352T_13INPUT+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
