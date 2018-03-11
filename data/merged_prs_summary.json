@@ -20,7 +20,71 @@
                 "release_queue": "CMSSW_10_0_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "3421397e010fe401cf37b7e6bd80b8f95cf305a7", 
+                        "title": "[100X ] OnlineDQM: Fix RegionalMuonCand comparison processor axis range CMSLITDPG-478", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22453", 
+                        "number": "22453", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "stahlleiton"
+                    }, 
+                    {
+                        "hash": "b139a300c11002a71d0a4c4ffb1b9b0d83d98cc3", 
+                        "title": "Backport of PR#22411 for HLT development", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22507", 
+                        "number": "22507", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "albertdow"
+                    }, 
+                    {
+                        "hash": "52c21be2935fedbbb4f2ad7b465c88763c649f39", 
+                        "title": "Update L1T DQM clients to 2018 era", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22351", 
+                        "number": "22351", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "nsmith-"
+                    }, 
+                    {
+                        "hash": "058d36ff785cb2d01c9fd0cb3cb39b8fcd7e6718", 
+                        "title": "changed eta ZS mask for null-word check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22374", 
+                        "number": "22374", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "panoskatsoulis"
+                    }, 
+                    {
+                        "hash": "a6f66bc34a2201a8e56d9d2c9b245b85ac395a08", 
+                        "title": "[10_0_X] OnlineDQM: uGMT DQM plot improvements CMSLITDPG-466", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22272", 
+                        "number": "22272", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "stahlleiton"
+                    }, 
+                    {
+                        "hash": "efa8bfe327c5a02b99df6b300b8320ee0fd53786", 
+                        "title": "Adding an hlt filter for CTPPS local tracks (10x)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22499", 
+                        "number": "22499", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cbeiraod"
+                    }, 
+                    {
+                        "hash": "0ab723f282431f9bada032e723e4c7159e58025c", 
+                        "title": "update on L2 muon seeding", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22331", 
+                        "number": "22331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "khaosmos93"
+                    }
+                ], 
                 "base_branch": "CMSSW_10_0_X", 
                 "release_name": "CMSSW_10_0_X", 
                 "builds": [], 
@@ -94,7 +158,14 @@
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc630", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.0-sun-00/CMSSW_10_0_X_2018-03-11-0000/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
@@ -2160,13 +2231,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                        "title": "Fix for Ecal O2O test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                        "number": "22505", 
+                        "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
+                        "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22435", 
+                        "number": "22435", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ggovi"
+                        "author_login": "DryRun"
                     }, 
                     {
                         "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
@@ -2176,6 +2247,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                        "title": "Fix for Ecal O2O test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                        "number": "22505", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
@@ -3020,13 +3100,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                        "title": "Fix for Ecal O2O test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                        "number": "22505", 
+                        "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
+                        "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22435", 
+                        "number": "22435", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ggovi"
+                        "author_login": "DryRun"
                     }, 
                     {
                         "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
@@ -3036,6 +3116,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                        "title": "Fix for Ecal O2O test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                        "number": "22505", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
@@ -4254,13 +4343,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                        "title": "Fix for Ecal O2O test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                        "number": "22505", 
+                        "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
+                        "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22435", 
+                        "number": "22435", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ggovi"
+                        "author_login": "DryRun"
                     }, 
                     {
                         "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
@@ -4270,6 +4359,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                        "title": "Fix for Ecal O2O test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                        "number": "22505", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
@@ -5475,13 +5573,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                        "title": "Fix for Ecal O2O test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                        "number": "22505", 
+                        "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
+                        "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22435", 
+                        "number": "22435", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ggovi"
+                        "author_login": "DryRun"
                     }, 
                     {
                         "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
@@ -5491,6 +5589,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                        "title": "Fix for Ecal O2O test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                        "number": "22505", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
@@ -6623,13 +6730,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                        "title": "Fix for Ecal O2O test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                        "number": "22505", 
+                        "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
+                        "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22435", 
+                        "number": "22435", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ggovi"
+                        "author_login": "DryRun"
                     }, 
                     {
                         "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
@@ -6639,6 +6746,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                        "title": "Fix for Ecal O2O test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                        "number": "22505", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
@@ -7732,13 +7848,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                        "title": "Fix for Ecal O2O test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                        "number": "22505", 
+                        "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
+                        "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22435", 
+                        "number": "22435", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ggovi"
+                        "author_login": "DryRun"
                     }, 
                     {
                         "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
@@ -7748,6 +7864,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                        "title": "Fix for Ecal O2O test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                        "number": "22505", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
@@ -8592,13 +8717,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                        "title": "Fix for Ecal O2O test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                        "number": "22505", 
+                        "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
+                        "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22435", 
+                        "number": "22435", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ggovi"
+                        "author_login": "DryRun"
                     }, 
                     {
                         "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
@@ -8608,6 +8733,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                        "title": "Fix for Ecal O2O test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                        "number": "22505", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
@@ -9458,13 +9592,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                        "title": "Fix for Ecal O2O test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                        "number": "22505", 
+                        "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
+                        "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22435", 
+                        "number": "22435", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ggovi"
+                        "author_login": "DryRun"
                     }, 
                     {
                         "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
@@ -9474,6 +9608,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                        "title": "Fix for Ecal O2O test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                        "number": "22505", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
@@ -22144,6 +22287,12 @@
                 "inProgress": false, 
                 "addons": [
                     {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2018-03-11-0000/addOnTests.log", 
+                        "details": {}
+                    }, 
+                    {
                         "arch": "slc7_amd64_gcc530", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2018-03-11-0000/addOnTests.log", 
@@ -33404,12 +33553,12 @@
                 "ib_date": "2018-03-11-0000-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc630", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.2-sun-00/CMSSW_9_2_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1846, 
+                            "num_passed": 1856, 
                             "known_failed": 13, 
                             "num_failed": 7
                         }
@@ -33423,6 +33572,17 @@
                             "num_passed": 1861, 
                             "known_failed": 13, 
                             "num_failed": 5
+                        }
+                    }, 
+                    {
+                        "done": false, 
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/9.2-sun-00/CMSSW_9_2_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 485, 
+                            "known_failed": 0, 
+                            "num_failed": 0
                         }
                     }, 
                     {
@@ -33520,9 +33680,7 @@
             }, 
             {
                 "comp_baseline_state": "ok", 
-                "tests_archs": [
-                    "slc6_amd64_gcc530"
-                ], 
+                "tests_archs": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc630": "IB/CMSSW_9_2_X_2018-03-04-0000/slc7_amd64_gcc630", 
                     "slc6_amd64_gcc630": "IB/CMSSW_9_2_X_2018-03-04-0000/slc6_amd64_gcc630", 
@@ -33531,40 +33689,12 @@
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
-                "fwlite": [
-                    {
-                        "arch": "slc6_amd64_gcc530", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/9.2-sun-00/CMSSW_9_2_X_2018-03-04-0000/new_FWLITE/logAnalysis.pkl", 
-                        "details": {}
-                    }
-                ], 
+                "fwlite": [], 
                 "compared_tags": "CMSSW_9_2_15-->CMSSW_9_2_X_2018-03-04-0000", 
                 "dqm_tests": "found", 
-                "utests": [
-                    {
-                        "arch": "slc6_amd64_gcc530", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/9.2-sun-00/CMSSW_9_2_X_2018-03-04-0000/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2018-03-04-0000-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc6_amd64_gcc530", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/9.2-sun-00/CMSSW_9_2_X_2018-03-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 1899, 
-                            "known_failed": 0, 
-                            "num_failed": 5
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "igprof": "found", 
                 "release_queue": "CMSSW_9_2_X", 
                 "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_9_2_X_2018-03-04-0000/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
@@ -33572,17 +33702,7 @@
                 "merged_prs": [], 
                 "base_branch": "CMSSW_9_2_X", 
                 "release_name": "CMSSW_9_2_X_2018-03-04-0000", 
-                "builds": [
-                    {
-                        "arch": "slc6_amd64_gcc530", 
-                        "passed": "warning", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/9.2-sun-00/CMSSW_9_2_X_2018-03-04-0000/new/logAnalysis.pkl", 
-                        "details": {
-                            "compWarning": 4, 
-                            "ignoreWarning": 26
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": {
                     "status": "passed", 
@@ -33600,14 +33720,7 @@
                 "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc6_amd64_gcc530", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/9.2-sun-00/CMSSW_9_2_X_2018-03-04-0000/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "found"
             }, 
             {
@@ -39338,9 +39451,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1228, 
-                            "known_failed": 0, 
-                            "num_failed": 3
+                            "num_passed": 1743, 
+                            "known_failed": 13, 
+                            "num_failed": 6
                         }
                     }, 
                     {
