@@ -146,7 +146,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.0-sun-00/CMSSW_10_0_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1801, 
+                            "num_passed": 1861, 
                             "known_failed": 1, 
                             "num_failed": 0
                         }
@@ -191,7 +191,7 @@
                 "static_checks_v2": "inprogress", 
                 "valgrind": "found", 
                 "material_budget": "not-found", 
-                "lizard": "inprogress", 
+                "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
@@ -3127,10 +3127,10 @@
                 "RVExceptions": null, 
                 "igprof": "not-found", 
                 "base_branch": "CMSSW_10_1_X", 
-                "compared_tags": "CMSSW_10_1_CLANG_X_2018-03-10-1100-->CMSSW_10_1_X", 
+                "compared_tags": "CMSSW_10_1_CLANG_X_2018-03-11-0000-->CMSSW_10_1_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
-                "ib_date": "2018-03-10-1100-0001", 
+                "ib_date": "2018-03-11-0000-0001", 
                 "relvals": [], 
                 "release_queue": "CMSSW_10_1_CLANG_X", 
                 "comp_baseline": "not-found", 
@@ -3144,6 +3144,58 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "DryRun"
+                    }
+                ], 
+                "fwlite": [], 
+                "release_name": "CMSSW_10_1_X", 
+                "builds": [], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "not-found", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "static_checks_failures": "not-found", 
+                "static_checks": "not-found", 
+                "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "not-found"
+            }, 
+            {
+                "comp_baseline_state": "errors", 
+                "tests_archs": [
+                    "slc6_amd64_gcc630"
+                ], 
+                "cmsdistTags": {
+                    "slc6_amd64_gcc630": "IB/CMSSW_10_1_CLANG_X_2018-03-11-0000/slc6_amd64_gcc630"
+                }, 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "igprof": "not-found", 
+                "base_branch": "CMSSW_10_1_X", 
+                "compared_tags": "CMSSW_10_1_CLANG_X_2018-03-10-1100-->CMSSW_10_1_CLANG_X_2018-03-11-0000", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc630", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1.CLANG-sun-00/CMSSW_10_1_CLANG_X_2018-03-11-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2018-03-11-0000-0000", 
+                "relvals": [], 
+                "release_queue": "CMSSW_10_1_CLANG_X", 
+                "comp_baseline": "not-found", 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [
+                    {
+                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                        "title": "Fix for Ecal O2O test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                        "number": "22505", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
@@ -3153,15 +3205,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                        "title": "Fix for Ecal O2O test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                        "number": "22505", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "ggovi"
                     }, 
                     {
                         "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
@@ -3255,15 +3298,25 @@
                     }
                 ], 
                 "fwlite": [], 
-                "release_name": "CMSSW_10_1_X", 
-                "builds": [], 
+                "release_name": "CMSSW_10_1_CLANG_X_2018-03-11-0000", 
+                "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc630", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1.CLANG-sun-00/CMSSW_10_1_CLANG_X_2018-03-11-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 804, 
+                            "ignoreWarning": 126
+                        }
+                    }
+                ], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
-                "isIB": false, 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "not-found"
@@ -9533,8 +9586,8 @@
             {
                 "comp_baseline_state": "ok", 
                 "tests_archs": [
-                    "slc7_aarch64_gcc700", 
-                    "slc6_amd64_gcc700"
+                    "slc6_amd64_gcc700", 
+                    "slc7_aarch64_gcc700"
                 ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
@@ -9562,7 +9615,19 @@
                     }
                 ], 
                 "ib_date": "2018-03-11-0000-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_aarch64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 2, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "inprogress", 
                 "release_queue": "CMSSW_10_1_X", 
                 "comp_baseline": "inprogress", 
@@ -22115,7 +22180,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1601, 
+                            "num_passed": 1615, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -39629,7 +39694,7 @@
                 "ib_date": "2018-03-11-0000-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc630", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.AN-sun-00/CMSSW_9_4_AN_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
@@ -40573,7 +40638,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.MAOD-sun-00/CMSSW_9_4_MAOD_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1735, 
+                            "num_passed": 1747, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
