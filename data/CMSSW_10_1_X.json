@@ -49,9 +49,9 @@
             "comp_baseline_state": "ok", 
             "tests_archs": [
                 "slc7_amd64_gcc630", 
+                "slc7_aarch64_gcc700", 
                 "slc6_amd64_gcc630", 
-                "slc6_amd64_gcc700", 
-                "slc7_aarch64_gcc700"
+                "slc6_amd64_gcc700"
             ], 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
@@ -83,6 +83,14 @@
                     }
                 }, 
                 {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }, 
+                {
                     "arch": "slc7_aarch64_gcc700", 
                     "passed": "failed", 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/unitTests-summary.log", 
@@ -94,12 +102,6 @@
                     "arch": "slc7_amd64_gcc630", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/new/logAnalysis.pkl']", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/new/logAnalysis.pkl']", 
                     "details": {}
                 }
             ], 
@@ -122,8 +124,8 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 951, 
-                        "known_failed": 7, 
+                        "num_passed": 1001, 
+                        "known_failed": 9, 
                         "num_failed": 0
                     }
                 }, 
