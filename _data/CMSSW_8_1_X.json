@@ -138,11 +138,14 @@
                 "status": "found", 
                 "arch": "slc6_amd64_gcc530"
             }, 
-            "static_checks_v2": "inprogress", 
+            "static_checks_v2": {
+                "status": "passed", 
+                "arch": "slc6_amd64_gcc530"
+            }, 
             "valgrind": "inprogress", 
             "material_budget": "slc6_amd64_gcc530:0", 
             "static_checks_failures": "not-found", 
-            "static_checks": "inprogress", 
+            "static_checks": "slc6_amd64_gcc530:", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [
