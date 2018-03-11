@@ -87,6 +87,17 @@
                         "known_failed": 0, 
                         "num_failed": 1
                     }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc630", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 697, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
                 }
             ], 
             "igprof": "found", 
@@ -136,7 +147,7 @@
                     "details": {}
                 }
             ], 
-            "hlt_tests": "inprogress"
+            "hlt_tests": "found"
         }, 
         {
             "comp_baseline_state": "ok", 
