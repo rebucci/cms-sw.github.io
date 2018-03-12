@@ -8454,6 +8454,29 @@
     },
     {
         "exitcode": 0,
+        "id": "140.53",
+        "known_error": 0,
+        "name": "RunHI2011+RunHI2011+RECOHID11+HARVESTDHI",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 300,
+                "status": "PASSED",
+                "warnings": 1710
+            },
+            {
+                "errors": 69,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "140.54",
         "known_error": 0,
         "name": "RunPA2013+RunPA2013+RECO_PPbData+HARVEST_PPbData",
@@ -8518,6 +8541,34 @@
                 "errors": 83,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "148.0",
+        "known_error": 0,
+        "name": "HydjetQ_MinBias_XeXe_5442GeV_2017+HydjetQ_MinBias_XeXe_5442GeV_2017+DIGIHI2017+RECOHI2017+HARVESTHI2017",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 4
             }
         ]
     },
