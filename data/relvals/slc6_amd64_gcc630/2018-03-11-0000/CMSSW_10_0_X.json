@@ -836,6 +836,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.73",
+        "known_error": 0,
+        "name": "RunPhoton2012D+RunPhoton2012D+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 316
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 9918
+            },
+            {
+                "errors": 71,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.74",
         "known_error": 0,
         "name": "RunEl2012D+RunEl2012D+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
