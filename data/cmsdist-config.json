@@ -279,6 +279,7 @@
   },
   {
     "ADDITIONAL_TESTS": "HLT,baseline,static-checks,fwlite,valgrind,igprof,geometry,iwyu,lizard",
+    "BUILD_PATCH_RELEASE": "1",
     "CMSDIST_TAG": "IB/CMSSW_9_4_X/gcc630",
     "ENABLE_DEBUG": "1",
     "PKGTOOLS_TAG": "V00-31-XX",
