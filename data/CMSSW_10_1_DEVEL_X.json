@@ -60,9 +60,11 @@
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc630", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1.DEVEL-sun-00/CMSSW_10_1_DEVEL_X_2018-03-11-0000/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1.DEVEL-sun-00/CMSSW_10_1_DEVEL_X_2018-03-11-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2018-03-11-0000-0000", 
