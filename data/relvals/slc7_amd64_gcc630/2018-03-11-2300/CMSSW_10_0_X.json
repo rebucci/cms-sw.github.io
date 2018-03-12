@@ -12084,6 +12084,34 @@
     },
     {
         "exitcode": 0,
+        "id": "11024.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018PU_GenSimFullINPUT+DigiFullPU_2018PU+RecoFullPU_2018PU+HARVESTFullPU_2018PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 3455
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3726
+            },
+            {
+                "errors": 28,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "11024.6",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018PU_GenSimFull_heCollapseINPUT+DigiFullPU_heCollapse_2018PU+RecoFullPU_heCollapse_2018PU+HARVESTFullPU_heCollapse_2018PU",
@@ -12102,6 +12130,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 5551
+            },
+            {
+                "errors": 28,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11025.0",
+        "known_error": 0,
+        "name": "ZEE_13+ZEE_13TeV_TuneCUETP8M1_2018PU_GenSimFullINPUT+DigiFullPU_2018PU+RecoFullPU_2018PU+HARVESTFullPU_2018PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 1620
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2658
             },
             {
                 "errors": 28,
@@ -13245,6 +13301,90 @@
     },
     {
         "exitcode": 0,
+        "id": "50202.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 53
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 3180
+            },
+            {
+                "errors": 72,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "50204.0",
+        "known_error": 0,
+        "name": "QQH1352T_13+QQH1352T_13INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 78
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 2979
+            },
+            {
+                "errors": 72,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "50208.0",
+        "known_error": 0,
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13+SMS-T1tttt_mGl-1500_mLSP-100_13INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 74
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 2279
+            },
+            {
+                "errors": 72,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "139901.0",
         "known_error": 0,
         "name": "ZMM_13_HS+ZMM_13_HSINPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -13386,6 +13526,118 @@
     },
     {
         "exitcode": 0,
+        "id": "250200.17",
+        "known_error": 0,
+        "name": "ZEE_13UP17+ZEE_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 824
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1109
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250202.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13INPUT+DIGIPRMXUP15_PU25+RECOPRMXUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1066
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1727
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250202.17",
+        "known_error": 0,
+        "name": "TTbar_13UP17+TTbar_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 863
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1592
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250203.0",
+        "known_error": 0,
+        "name": "H125GGgluonfusion_13+H125GGgluonfusion_13INPUT+DIGIPRMXUP15_PU25+RECOPRMXUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 780
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1696
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "250203.17",
         "known_error": 0,
         "name": "H125GGgluonfusion_13UP17+H125GGgluonfusion_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
@@ -13460,6 +13712,34 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 1596
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250206.17",
+        "known_error": 0,
+        "name": "ZMM_13UP17+ZMM_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 886
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1484
             },
             {
                 "errors": 33,
@@ -13843,6 +14123,62 @@
                 "errors": 72,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "13992501.0",
+        "known_error": 0,
+        "name": "ZMM_13_HS+ZMM_13_HSINPUT+DIGIUP15_PU25HS+RECOUP15_PU25HS+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 197
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 5695
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "13992502.0",
+        "known_error": 0,
+        "name": "TTbar_13_HS+TTbar_13_HSINPUT+DIGIUP15_PU25HS+RECOUP15_PU25HS+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 114
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 2726
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 4
             }
         ]
     }
