@@ -22,6 +22,15 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
+                    "hash": "fc6e027eea1479cdf740ed7131d949338b823bad", 
+                    "title": "RecoHI/HiCentralityAlgos: cleanup clang warning:", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22497", 
+                    "number": "22497", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gartung"
+                }, 
+                {
                     "hash": "f38e37ec615664eee066e8956b68fe0425033258", 
                     "title": "updated HLT GT for online DQM", 
                     "url": "https://github.com/cms-sw/cmssw/pull/22573", 
@@ -29,6 +38,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "threus"
+                }, 
+                {
+                    "hash": "1d0038676569acef5d1cb82fdebf9b97d56e73b5", 
+                    "title": "Adapt DQMGenericClient to be able to run every LS", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22457", 
+                    "number": "22457", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "thomreis"
                 }, 
                 {
                     "hash": "12c166b30dfc3f819bd09e683d2560689d3bad45", 
@@ -128,7 +146,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/10.1-mon-11/CMSSW_10_1_X_2018-03-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 946, 
+                        "num_passed": 1345, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }

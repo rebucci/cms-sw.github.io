@@ -20,13 +20,13 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
-                    "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
-                    "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/22435", 
-                    "number": "22435", 
+                    "hash": "fc6e027eea1479cdf740ed7131d949338b823bad", 
+                    "title": "RecoHI/HiCentralityAlgos: cleanup clang warning:", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22497", 
+                    "number": "22497", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "DryRun"
+                    "author_login": "gartung"
                 }, 
                 {
                     "hash": "f38e37ec615664eee066e8956b68fe0425033258", 
@@ -38,6 +38,24 @@
                     "author_login": "threus"
                 }, 
                 {
+                    "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
+                    "title": "Fix for Ecal O2O test", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22505", 
+                    "number": "22505", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ggovi"
+                }, 
+                {
+                    "hash": "1d0038676569acef5d1cb82fdebf9b97d56e73b5", 
+                    "title": "Adapt DQMGenericClient to be able to run every LS", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22457", 
+                    "number": "22457", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "thomreis"
+                }, 
+                {
                     "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
                     "title": "Set time 0 to begin of processing loop", 
                     "url": "https://github.com/cms-sw/cmssw/pull/22564", 
@@ -47,13 +65,13 @@
                     "author_login": "Dr15Jones"
                 }, 
                 {
-                    "hash": "f6df59331e8e9ef9bdb230b1b95ad3c2abd48522", 
-                    "title": "Fix for Ecal O2O test", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/22505", 
-                    "number": "22505", 
+                    "hash": "8446fb95ea8369c9ab7e23a75b5907b4fec8f1df", 
+                    "title": "HCALDQM: Add monitoring for HF TP TDC cut (10_1_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22435", 
+                    "number": "22435", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "ggovi"
+                    "author_login": "DryRun"
                 }, 
                 {
                     "hash": "12c166b30dfc3f819bd09e683d2560689d3bad45", 
