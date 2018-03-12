@@ -6120,6 +6120,90 @@
     },
     {
         "exitcode": 0,
+        "id": "136.783",
+        "known_error": 0,
+        "name": "RunJetHT2017B+RunJetHT2017B+HLTDR2_2017+RECODR2_2017reHLT_skimJetHT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 83,
+                "status": "PASSED",
+                "warnings": 516
+            },
+            {
+                "errors": 71,
+                "status": "PASSED",
+                "warnings": 6616
+            },
+            {
+                "errors": 29,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.786",
+        "known_error": 0,
+        "name": "RunSingleEl2017B+RunSingleEl2017B+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 345
+            },
+            {
+                "errors": 99,
+                "status": "PASSED",
+                "warnings": 2177
+            },
+            {
+                "errors": 29,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.794",
+        "known_error": 0,
+        "name": "RunDoubleMuon2017C+RunDoubleMuon2017C+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 923
+            },
+            {
+                "errors": 49,
+                "status": "PASSED",
+                "warnings": 1461
+            },
+            {
+                "errors": 29,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.795",
         "known_error": 0,
         "name": "RunJetHT2017C+RunJetHT2017C+HLTDR2_2017+RECODR2_2017reHLT_skimJetHT_Prompt+HARVEST2017",
@@ -6138,6 +6222,62 @@
                 "errors": 53,
                 "status": "PASSED",
                 "warnings": 1885
+            },
+            {
+                "errors": 29,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.8",
+        "known_error": 0,
+        "name": "RunSinglePh2017C+RunSinglePh2017C+HLTDR2_2017+RECODR2_2017reHLT_skimSinglePh_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 1468
+            },
+            {
+                "errors": 82,
+                "status": "PASSED",
+                "warnings": 1365
+            },
+            {
+                "errors": 29,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.802",
+        "known_error": 0,
+        "name": "RunMuOnia2017C+RunMuOnia2017C+HLTDR2_2017+RECODR2_2017reHLT_skimMuOnia_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 522
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 1078
             },
             {
                 "errors": 29,
