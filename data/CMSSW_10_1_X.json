@@ -39,12 +39,14 @@
             "comp_baseline_state": "ok", 
             "tests_archs": [
                 "slc7_amd64_gcc630", 
+                "slc7_amd64_gcc700", 
                 "slc7_aarch64_gcc700", 
                 "slc6_amd64_gcc700"
             ], 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
                 "slc7_amd64_gcc630": "IB/CMSSW_10_1_X_2018-03-11-2300/slc7_amd64_gcc630", 
+                "slc7_amd64_gcc700": "IB/CMSSW_10_1_X_2018-03-11-2300/slc7_amd64_gcc700", 
                 "slc7_aarch64_gcc700": "IB/CMSSW_10_1_X_2018-03-11-2300/slc7_aarch64_gcc700", 
                 "slc6_amd64_gcc700": "IB/CMSSW_10_1_X_2018-03-11-2300/slc6_amd64_gcc700"
             }, 
@@ -59,6 +61,12 @@
                     "arch": "slc7_amd64_gcc630", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-23/CMSSW_10_1_X_2018-03-11-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.1-sun-23/CMSSW_10_1_X_2018-03-11-2300/new/logAnalysis.pkl']", 
                     "details": {}
                 }, 
                 {
@@ -100,6 +108,15 @@
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-23/CMSSW_10_1_X_2018-03-11-2300/new/logAnalysis.pkl", 
                     "details": {
                         "ignoreWarning": 5
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.1-sun-23/CMSSW_10_1_X_2018-03-11-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 5, 
+                        "ignoreWarning": 848
                     }
                 }, 
                 {
@@ -210,7 +227,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1517, 
+                        "num_passed": 1802, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -221,7 +238,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 13, 
+                        "num_passed": 79, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -232,7 +249,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2065, 
+                        "num_passed": 2085, 
                         "known_failed": 18, 
                         "num_failed": 0
                     }
@@ -243,7 +260,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1251, 
+                        "num_passed": 1263, 
                         "known_failed": 20, 
                         "num_failed": 31
                     }
@@ -444,7 +461,7 @@
                     "details": {}
                 }
             ], 
-            "hlt_tests": "inprogress"
+            "hlt_tests": "found"
         }, 
         {
             "comp_baseline_state": "ok", 
