@@ -52,13 +52,19 @@
         "name": "ProdQCD_Pt_3000_3500+ProdQCD_Pt_3000_3500+DIGIPROD1+RECOPROD1",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
             }
         ]
     },
@@ -69,19 +75,29 @@
         "name": "RunCosmics2011A+RunCosmics2011A+RECOCOSD+ALCACOSD+SKIMCOSD+HARVESTDC",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 1728
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 285
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 347
             },
             {
-                "status": "PASSED"
+                "errors": 66,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -92,10 +108,14 @@
         "name": "SingleMuPt10+SingleMuPt10FS+HARVESTFS",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 292
             },
             {
-                "status": "PASSED"
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -104,6 +124,24 @@
         "id": "5.3",
         "known_error": 0,
         "name": "SingleMuPt100+SingleMuPt100FS+HARVESTFS",
+        "steps": [
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 414
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "5.5",
+        "known_error": 0,
+        "name": "ZTT+ZTTFS+HARVESTFS",
         "steps": [
             {
                 "status": "PASSED"
@@ -120,10 +158,14 @@
         "name": "H130GGgluonfusion+H130GGgluonfusionFS+HARVESTFS",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 193
             },
             {
-                "status": "PASSED"
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -134,16 +176,24 @@
         "name": "SingleMuPt1+SingleMuPt1INPUT+DIGI+RECO+HARVEST",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 105
             },
             {
-                "status": "PASSED"
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 1434
             },
             {
-                "status": "PASSED"
+                "errors": 72,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -187,19 +237,29 @@
         "name": "CosmicsSPLoose+CosmicsSPLoose+DIGICOS+RECOCOS+ALCACOS+HARVESTCOS",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 674
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 155
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
             },
             {
-                "status": "PASSED"
+                "errors": 70,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -210,19 +270,29 @@
         "name": "Cosmics_UP17+Cosmics_UP17+DIGICOS_UP17+RECOCOS_UP17+ALCACOS_UP17+HARVESTCOS_UP17",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 366
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 23
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 135
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
             },
             {
-                "status": "PASSED"
+                "errors": 70,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -233,19 +303,29 @@
         "name": "CosmicsSPLoose_UP17+CosmicsSPLoose_UP17+DIGICOS_UP17+RECOCOS_UP17+ALCACOS_UP17+HARVESTCOS_UP17",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 454
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 215
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 48
             },
             {
-                "status": "PASSED"
+                "errors": 70,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -256,11 +336,93 @@
         "name": "Cosmics_UP17+Cosmics_UP17+DIGICOSPEAK_UP17+RECOCOSPEAK_UP17+ALCACOS_UP17+HARVESTCOS_UP17",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 429
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 153
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
+            },
+            {
+                "errors": 70,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "8.0",
+        "known_error": 0,
+        "name": "BeamHalo+BeamHaloINPUT+DIGICOS+RECOCOS+ALCABH+HARVESTCOS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 484
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1392
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 102
+            },
+            {
+                "errors": 70,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "101.0",
+        "known_error": 0,
+        "name": "SingleElectronE120EHCAL+SingleElectronE120EHCAL",
+        "steps": [
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "102.0",
+        "known_error": 0,
+        "name": "SinglePiE50HCAL+SinglePiE50HCAL",
+        "steps": [
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "105.0",
+        "known_error": 0,
+        "name": "MinBiasHcalNZS+MinBiasHS+DIGI+ALCANZS",
+        "steps": [
             {
                 "status": "PASSED"
             },
@@ -274,16 +436,10 @@
     },
     {
         "exitcode": 0,
-        "id": "8.0",
+        "id": "111.0",
         "known_error": 0,
-        "name": "BeamHalo+BeamHaloINPUT+DIGICOS+RECOCOS+ALCABH+HARVESTCOS",
+        "name": "JpsiMM_Pt_20_inf+JpsiMM_Pt_20_inf+DIGI+RECO",
         "steps": [
-            {
-                "status": "PASSED"
-            },
-            {
-                "status": "PASSED"
-            },
             {
                 "status": "PASSED"
             },
@@ -540,6 +696,26 @@
                 "errors": 31,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.706",
+        "known_error": 0,
+        "name": "RunMuonEG2015B+RunMuonEG2015B+HLTDR2_50ns+RECODR2_50nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
@@ -994,16 +1170,24 @@
         "name": "RunJetHT2016E+RunJetHT2016E+HLTDR2_2016+RECODR2_2016reHLT_skimJetHT_HIPM+HARVESTDR2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 610
             },
             {
-                "status": "PASSED"
+                "errors": 228,
+                "status": "PASSED",
+                "warnings": 17932
             },
             {
-                "status": "PASSED"
+                "errors": 1281,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -1631,16 +1815,24 @@
         "name": "TTbar_13+TTbar_13INPUT+DIGIUP15+RECOUP15_trackingOnly+HARVESTUP15_trackingOnly",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 44
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 382
             },
             {
-                "status": "PASSED"
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 10
             }
         ]
     },
@@ -1784,6 +1976,26 @@
     },
     {
         "exitcode": 0,
+        "id": "1332.0",
+        "known_error": 0,
+        "name": "H125GGgluonfusion_13+H125GGgluonfusion_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1340.0",
         "known_error": 0,
         "name": "PhiToMuMu_13+PhiToMuMu_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -1914,6 +2126,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10001.0",
+        "known_error": 0,
+        "name": "SingleElectronPt10+SingleElectronPt10_pythia8_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+ALCAFull_2017+HARVESTFull_2017",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
@@ -2112,6 +2347,26 @@
     },
     {
         "exitcode": 0,
+        "id": "10824.5",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_pixelTrackingOnly_2017+HARVESTFull_pixelTrackingOnly_2017",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "250199.17",
         "known_error": 0,
         "name": "PREMIXUP17_PU25+PREMIXUP17_PU25",
@@ -2143,13 +2398,19 @@
         "name": "ZMM_13+FS_ZMM_13_PRMXUP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 545
             },
             {
-                "status": "PASSED"
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
