@@ -52,7 +52,7 @@
                 "slc6_amd64_gcc630": "IB/CMSSW_10_1_X_2018-03-11-2300/slc6_amd64_gcc630", 
                 "slc6_amd64_gcc700": "IB/CMSSW_10_1_X_2018-03-11-2300/slc6_amd64_gcc700"
             }, 
-            "flawfinder": "inprogress", 
+            "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
             "fwlite": [], 
@@ -100,7 +100,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-23/CMSSW_10_1_X_2018-03-11-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 552, 
+                        "num_passed": 616, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -111,7 +111,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.1-sun-23/CMSSW_10_1_X_2018-03-11-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 42, 
+                        "num_passed": 48, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -181,7 +181,7 @@
             ], 
             "material_budget_v2": "not-found", 
             "static_checks_v2": "inprogress", 
-            "valgrind": "inprogress", 
+            "valgrind": "found", 
             "material_budget": "not-found", 
             "lizard": "inprogress", 
             "static_checks": "inprogress", 
@@ -300,7 +300,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1171, 
+                        "num_passed": 1530, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -311,7 +311,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 47, 
+                        "num_passed": 131, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -322,8 +322,8 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2088, 
-                        "known_failed": 20, 
+                        "num_passed": 2184, 
+                        "known_failed": 26, 
                         "num_failed": 0
                     }
                 }, 
@@ -333,7 +333,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1444, 
+                        "num_passed": 1540, 
                         "known_failed": 28, 
                         "num_failed": 36
                     }
