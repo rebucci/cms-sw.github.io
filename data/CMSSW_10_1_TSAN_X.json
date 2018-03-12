@@ -29,6 +29,15 @@
                     "author_login": "DryRun"
                 }, 
                 {
+                    "hash": "f38e37ec615664eee066e8956b68fe0425033258", 
+                    "title": "updated HLT GT for online DQM", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22573", 
+                    "number": "22573", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "threus"
+                }, 
+                {
                     "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
                     "title": "Set time 0 to begin of processing loop", 
                     "url": "https://github.com/cms-sw/cmssw/pull/22564", 
@@ -47,13 +56,22 @@
                     "author_login": "ggovi"
                 }, 
                 {
-                    "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
-                    "title": "Special L1T cleanup for HLT (10_1_X)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/22557", 
-                    "number": "22557", 
+                    "hash": "12c166b30dfc3f819bd09e683d2560689d3bad45", 
+                    "title": "avoid some temporaries in HcalTopology", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22540", 
+                    "number": "22540", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "cms-tsg-storm"
+                    "author_login": "kpedro88"
+                }, 
+                {
+                    "hash": "0f66303625f3e03d3f67c235d7f649ec45014c3d", 
+                    "title": "Improve event setup usage in HCAL digitization", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22538", 
+                    "number": "22538", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "kpedro88"
                 }, 
                 {
                     "hash": "9ebe4089921b55ce8ce242ea3d5663dc4a5cf97c", 
@@ -74,6 +92,15 @@
                     "author_login": "albertdow"
                 }, 
                 {
+                    "hash": "84441939c70b4b7df0ab0bddc39ddd974fd9f6cc", 
+                    "title": "Special L1T cleanup for HLT (10_1_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22557", 
+                    "number": "22557", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
                     "hash": "0cef6b6f5cd7a2d4d4376353c88109e8605db56e", 
                     "title": "adding Egamma 2016/2017 IDs to MiniAOD and removing old ones", 
                     "url": "https://github.com/cms-sw/cmssw/pull/22428", 
@@ -83,13 +110,22 @@
                     "author_login": "Sam-Harper"
                 }, 
                 {
-                    "hash": "0f66303625f3e03d3f67c235d7f649ec45014c3d", 
-                    "title": "Improve event setup usage in HCAL digitization", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/22538", 
-                    "number": "22538", 
+                    "hash": "5d8fc0ab565448a4a37432f161e279d68f57db22", 
+                    "title": "RecoLocalTracker/SiStripRecHitConverter: Fix bug found by clang warningand fix clang warnings:", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22533", 
+                    "number": "22533", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "kpedro88"
+                    "author_login": "gartung"
+                }, 
+                {
+                    "hash": "d1afa8e3446513eb19c1274c6627a8d509e6c3ba", 
+                    "title": "Added the CTPPS & ECAL attributes to CondFormats/LHCInfo", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22527", 
+                    "number": "22527", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "coder-amey"
                 }, 
                 {
                     "hash": "22b531fcbbb71c66d1361e2adead4a9676089b13", 
@@ -101,13 +137,13 @@
                     "author_login": "fioriNTU"
                 }, 
                 {
-                    "hash": "d1afa8e3446513eb19c1274c6627a8d509e6c3ba", 
-                    "title": "Added the CTPPS & ECAL attributes to CondFormats/LHCInfo", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/22527", 
-                    "number": "22527", 
+                    "hash": "4eb53362a8a6c26216dfe3f05d72f34ec1d992e8", 
+                    "title": "[muon id] bug fix for high pt muon algorithm (\"Picky\")", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22422", 
+                    "number": "22422", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "coder-amey"
+                    "author_login": "drkovalskyi"
                 }, 
                 {
                     "hash": "2161faa42ce64df2accc255f720cad5700673bce", 
@@ -137,13 +173,22 @@
                     "author_login": "PFCal-dev"
                 }, 
                 {
-                    "hash": "5d8fc0ab565448a4a37432f161e279d68f57db22", 
-                    "title": "RecoLocalTracker/SiStripRecHitConverter: Fix bug found by clang warningand fix clang warnings:", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/22533", 
-                    "number": "22533", 
+                    "hash": "86c381ad52f2ee90a11d1a6d14edd93eb3a8e39e", 
+                    "title": "remove Control view plots from the IsoBunches DQM dir", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22292", 
+                    "number": "22292", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "gartung"
+                    "author_login": "gouskos"
+                }, 
+                {
+                    "hash": "8e5c256340c62206aab2ed06e0a6550134d8fbcf", 
+                    "title": "Switch random engine to MixMax", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22257", 
+                    "number": "22257", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "civanch"
                 }
             ], 
             "fwlite": [], 
