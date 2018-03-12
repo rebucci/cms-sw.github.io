@@ -83,7 +83,19 @@
                 }
             ], 
             "ib_date": "2018-03-11-2300-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc630", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-23/CMSSW_10_1_X_2018-03-11-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 14, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
             "igprof": "inprogress", 
             "release_queue": "CMSSW_10_1_X", 
             "comp_baseline": "inprogress", 
@@ -234,7 +246,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2241, 
+                        "num_passed": 2257, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -245,7 +257,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 326, 
+                        "num_passed": 361, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -267,8 +279,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-03-11-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1346, 
-                        "known_failed": 22, 
+                        "num_passed": 1356, 
+                        "known_failed": 27, 
                         "num_failed": 31
                     }
                 }
