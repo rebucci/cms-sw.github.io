@@ -3432,7 +3432,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/10.1.CLANG-mon-23/CMSSW_10_1_CLANG_X_2018-03-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1161, 
+                            "num_passed": 1526, 
                             "known_failed": 0, 
                             "num_failed": 2
                         }
@@ -11069,7 +11069,7 @@
                 ], 
                 "igprof": "found", 
                 "release_queue": "CMSSW_10_1_X", 
-                "comp_baseline": "inprogress", 
+                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_1_X_2018-03-12-2300/slc6_amd64_gcc630/-GenuineIntel/matrix-results", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
