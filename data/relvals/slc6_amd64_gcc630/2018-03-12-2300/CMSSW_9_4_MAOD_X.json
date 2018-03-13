@@ -277,5 +277,74 @@
                 "warnings": 2
             }
         ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4000.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarINPUT+DIGI+RECODBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 377
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 2490
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4002.0",
+        "known_error": 0,
+        "name": "ZEE+ZEEINPUT+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 314
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 1057
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4003.0",
+        "known_error": 0,
+        "name": "ZMM+ZMMINPUT+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 293
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 2526
+            }
+        ]
     }
 ]
