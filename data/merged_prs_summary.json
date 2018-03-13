@@ -84,7 +84,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/10.0-mon-23/CMSSW_10_0_X_2018-03-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 658, 
+                            "num_passed": 1036, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -10655,12 +10655,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc630", 
                     "slc7_amd64_gcc700", 
-                    "slc7_aarch64_gcc700"
+                    "slc7_aarch64_gcc700", 
+                    "slc6_amd64_gcc700"
                 ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
                     "slc7_amd64_gcc630": "IB/CMSSW_10_1_X_2018-03-12-2300/slc7_amd64_gcc630", 
                     "slc7_amd64_gcc700": "IB/CMSSW_10_1_X_2018-03-12-2300/slc7_amd64_gcc700", 
+                    "slc6_amd64_gcc700": "IB/CMSSW_10_1_X_2018-03-11-2300/slc6_amd64_gcc700", 
                     "slc7_aarch64_gcc700": "IB/CMSSW_10_1_X_2018-03-12-2300/slc7_aarch64_gcc700"
                 }, 
                 "flawfinder": "inprogress", 
@@ -10680,6 +10682,12 @@
                         "arch": "slc7_amd64_gcc700", 
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.1-mon-23/CMSSW_10_1_X_2018-03-12-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.1-mon-23/CMSSW_10_1_X_2018-03-12-2300/new/logAnalysis.pkl']", 
                         "details": {}
                     }, 
                     {
@@ -10802,6 +10810,15 @@
                         "arch": "slc7_amd64_gcc700", 
                         "passed": "warning", 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.1-mon-23/CMSSW_10_1_X_2018-03-12-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 5, 
+                            "ignoreWarning": 848
+                        }
+                    }, 
+                    {
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.1-mon-23/CMSSW_10_1_X_2018-03-12-2300/new/logAnalysis.pkl", 
                         "details": {
                             "compWarning": 5, 
                             "ignoreWarning": 848
