@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1520712980,
+        "expire": 1520972223,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -20,41 +20,7 @@
     },
     {
       "das": {
-        "expire": 1520712980,
-        "instance": "prod/global",
-        "primary_key": "file.name",
-        "record": 1,
-        "services": [
-          "combined:files4dataset_runs_site"
-        ]
-      },
-      "file": [
-        {
-          "name": "/store/data/Run2011A/DoubleElectron/RAW-RECO/ZElectron-08Nov2011-v1/0000/E6BB9DAE-301C-E111-9B88-003048678AF4.root"
-        }
-      ],
-      "qhash": "4e3c7433646015d235cad51a0a8473d4"
-    },
-    {
-      "das": {
-        "expire": 1520712980,
-        "instance": "prod/global",
-        "primary_key": "file.name",
-        "record": 1,
-        "services": [
-          "combined:files4dataset_runs_site"
-        ]
-      },
-      "file": [
-        {
-          "name": "/store/data/Run2011A/DoubleElectron/RAW-RECO/ZElectron-08Nov2011-v1/0000/D42F5737-FB1B-E111-8055-00304866C398.root"
-        }
-      ],
-      "qhash": "4e3c7433646015d235cad51a0a8473d4"
-    },
-    {
-      "das": {
-        "expire": 1520712980,
+        "expire": 1520972223,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -71,7 +37,7 @@
     },
     {
       "das": {
-        "expire": 1520712980,
+        "expire": 1520972223,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,14 +47,31 @@
       },
       "file": [
         {
-          "name": "/store/data/Run2011A/DoubleElectron/RAW-RECO/ZElectron-08Nov2011-v1/0000/62E877FC-EC1B-E111-A774-00304867900C.root"
+          "name": "/store/data/Run2011A/DoubleElectron/RAW-RECO/ZElectron-08Nov2011-v1/0000/E6BB9DAE-301C-E111-9B88-003048678AF4.root"
         }
       ],
       "qhash": "4e3c7433646015d235cad51a0a8473d4"
     },
     {
       "das": {
-        "expire": 1520712980,
+        "expire": 1520972223,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "combined:files4dataset_runs_site"
+        ]
+      },
+      "file": [
+        {
+          "name": "/store/data/Run2011A/DoubleElectron/RAW-RECO/ZElectron-08Nov2011-v1/0000/D42F5737-FB1B-E111-8055-00304866C398.root"
+        }
+      ],
+      "qhash": "4e3c7433646015d235cad51a0a8473d4"
+    },
+    {
+      "das": {
+        "expire": 1520972223,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -99,6 +82,23 @@
       "file": [
         {
           "name": "/store/data/Run2011A/DoubleElectron/RAW-RECO/ZElectron-08Nov2011-v1/0000/0663D01B-F71B-E111-99F4-002618943958.root"
+        }
+      ],
+      "qhash": "4e3c7433646015d235cad51a0a8473d4"
+    },
+    {
+      "das": {
+        "expire": 1520972223,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "combined:files4dataset_runs_site"
+        ]
+      },
+      "file": [
+        {
+          "name": "/store/data/Run2011A/DoubleElectron/RAW-RECO/ZElectron-08Nov2011-v1/0000/62E877FC-EC1B-E111-A774-00304867900C.root"
         }
       ],
       "qhash": "4e3c7433646015d235cad51a0a8473d4"
@@ -132,9 +132,9 @@
       "site": "T2_CH_CERN"
     },
     "system": "",
-    "tstamp": "2018-03-10T21:16:19.297546983+01:00"
+    "tstamp": "2018-03-13T21:17:02.147373848+01:00"
   },
   "nresults": 6,
   "status": "ok",
-  "timestamp": 1520712980
+  "timestamp": 1520972223
 }
