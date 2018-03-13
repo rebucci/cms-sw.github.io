@@ -22,6 +22,33 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
+                    "hash": "805b444b5a8aa548324ea7beb1db9923c62d5536", 
+                    "title": "Complete the migration from PhysicsTools/CandUtils", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22584", 
+                    "number": "22584", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "perrotta"
+                }, 
+                {
+                    "hash": "b540731e9ec53e1f90b5290cf82685347d1a6805", 
+                    "title": "Require ability to produce in Runs/Lumis if Run/Lumi product declared", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22560", 
+                    "number": "22560", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "wddgit"
+                }, 
+                {
+                    "hash": "4cc9fa203843ce7ae0cbceab59793545467721fc", 
+                    "title": "NVProfilerService: improve handling of module prefetching", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22574", 
+                    "number": "22574", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fwyzard"
+                }, 
+                {
                     "hash": "9274e5396c8f303da8dd3c3125d3d6feca7dfc89", 
                     "title": "Create new collection for Hcal lasermon digis + Hcal unpacker updates", 
                     "url": "https://github.com/cms-sw/cmssw/pull/22385", 
@@ -125,7 +152,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/10.1-mon-23/CMSSW_10_1_X_2018-03-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1365, 
+                        "num_passed": 1840, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }

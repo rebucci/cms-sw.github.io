@@ -29,6 +29,15 @@
                     "author_login": "ggovi"
                 }, 
                 {
+                    "hash": "b540731e9ec53e1f90b5290cf82685347d1a6805", 
+                    "title": "Require ability to produce in Runs/Lumis if Run/Lumi product declared", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22560", 
+                    "number": "22560", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "wddgit"
+                }, 
+                {
                     "hash": "ccae968e768d850f0cc3eac0919669375bebcfaa", 
                     "title": "Set time 0 to begin of processing loop", 
                     "url": "https://github.com/cms-sw/cmssw/pull/22564", 
@@ -110,6 +119,24 @@
                     "author_login": "gouskos"
                 }, 
                 {
+                    "hash": "1d0038676569acef5d1cb82fdebf9b97d56e73b5", 
+                    "title": "Adapt DQMGenericClient to be able to run every LS", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22457", 
+                    "number": "22457", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "thomreis"
+                }, 
+                {
+                    "hash": "805b444b5a8aa548324ea7beb1db9923c62d5536", 
+                    "title": "Complete the migration from PhysicsTools/CandUtils", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22584", 
+                    "number": "22584", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "perrotta"
+                }, 
+                {
                     "hash": "45587b26833c4183b1fa91ec68045bd4cb346fbe", 
                     "title": "PR for HLT matching PFtau to L1T jets ", 
                     "url": "https://github.com/cms-sw/cmssw/pull/22488", 
@@ -137,13 +164,13 @@
                     "author_login": "threus"
                 }, 
                 {
-                    "hash": "1d0038676569acef5d1cb82fdebf9b97d56e73b5", 
-                    "title": "Adapt DQMGenericClient to be able to run every LS", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/22457", 
-                    "number": "22457", 
+                    "hash": "4cc9fa203843ce7ae0cbceab59793545467721fc", 
+                    "title": "NVProfilerService: improve handling of module prefetching", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/22574", 
+                    "number": "22574", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "thomreis"
+                    "author_login": "fwyzard"
                 }, 
                 {
                     "hash": "b43e503edfbd0af59e055885b9906c931976d95e", 
