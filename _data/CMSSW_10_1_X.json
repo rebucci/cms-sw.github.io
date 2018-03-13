@@ -262,13 +262,13 @@
                     }
                 }, 
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_amd64_gcc700", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.1-mon-23/CMSSW_10_1_X_2018-03-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
                         "num_passed": 2158, 
-                        "known_failed": 38, 
+                        "known_failed": 39, 
                         "num_failed": 1
                     }
                 }, 
