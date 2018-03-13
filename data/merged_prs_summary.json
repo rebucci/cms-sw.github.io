@@ -83,9 +83,9 @@
                 ], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "inprogress", 
-                "valgrind": "inprogress", 
+                "valgrind": "found", 
                 "material_budget": "not-found", 
-                "lizard": "inprogress", 
+                "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
@@ -11432,8 +11432,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/tue/10.1-tue-11/CMSSW_10_1_X_2018-03-13-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1343, 
-                            "known_failed": 21, 
+                            "num_passed": 1353, 
+                            "known_failed": 28, 
                             "num_failed": 33
                         }
                     }
