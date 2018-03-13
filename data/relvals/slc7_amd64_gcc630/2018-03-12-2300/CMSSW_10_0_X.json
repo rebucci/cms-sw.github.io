@@ -366,6 +366,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.833",
+        "known_error": 0,
+        "name": "RunMuonEG2017F+RunMuonEG2017F+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 450
+            },
+            {
+                "errors": 228,
+                "status": "PASSED",
+                "warnings": 14215
+            },
+            {
+                "errors": 31,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.839",
         "known_error": 0,
         "name": "RunNoBPTX2017F+RunNoBPTX2017F+HLTDR2_2017+RECODR2_2017reHLTAlCaTkCosmics_Prompt+HARVEST2017",
@@ -1445,6 +1473,29 @@
                 "errors": 19,
                 "status": "PASSED",
                 "warnings": 1261
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1329.1",
+        "known_error": 0,
+        "name": "ZEE_13_80XNanoAODINPUT+ZEE_13_80XNanoAODINPUT+NANOEDMMC2016_80X+HARVESTNANOAODMC2016_80X",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 244
             },
             {
                 "errors": 0,
