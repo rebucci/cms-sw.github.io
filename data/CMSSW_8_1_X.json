@@ -175,18 +175,14 @@
             "RVExceptions": null, 
             "fwlite": [], 
             "compared_tags": "CMSSW_8_1_0_pre6-->CMSSW_8_1_X_2018-03-04-0000", 
-            "dqm_tests": "found", 
+            "dqm_tests": "inprogress", 
             "utests": [], 
             "ib_date": "2018-03-04-0000-0000", 
             "relvals": [], 
-            "igprof": "found", 
+            "igprof": "inprogress", 
             "release_queue": "CMSSW_8_1_X", 
-            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_1_X_2018-03-04-0000/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
-            "material_budget_comparison": {
-                "status": "found", 
-                "arch": "slc6_amd64_gcc530", 
-                "results": "ok"
-            }, 
+            "comp_baseline": "inprogress", 
+            "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
                     "hash": "b24130ca1e3be824b8caf3d6379eb2356ecd4bb7", 
@@ -11182,15 +11178,15 @@
             "release_name": "CMSSW_8_1_X_2018-03-04-0000", 
             "builds": [], 
             "material_budget_v2": {
-                "status": "found", 
-                "arch": "slc6_amd64_gcc530"
+                "status": "inprogress", 
+                "arch": null
             }, 
             "static_checks_v2": {
                 "status": "passed", 
                 "arch": "slc6_amd64_gcc530"
             }, 
             "valgrind": "found", 
-            "material_budget": "slc6_amd64_gcc530:0", 
+            "material_budget": "inprogress", 
             "static_checks_failures": "not-found", 
             "static_checks": "slc6_amd64_gcc530:", 
             "isIB": true, 
