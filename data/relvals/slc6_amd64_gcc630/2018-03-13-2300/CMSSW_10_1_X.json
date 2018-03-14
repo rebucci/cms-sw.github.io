@@ -70,6 +70,29 @@
     },
     {
         "exitcode": 0,
+        "id": "129.0",
+        "known_error": 0,
+        "name": "SinglePiPt1+SinglePiPt1+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 127
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 692
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "130.0",
         "known_error": 0,
         "name": "SinglePiPt10+SinglePiPt10+DIGI+RECO",
@@ -88,6 +111,29 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 390
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "131.0",
+        "known_error": 0,
+        "name": "SinglePiPt100+SinglePiPt100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 71
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 855
             }
         ]
     },
