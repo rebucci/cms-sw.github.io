@@ -83,9 +83,9 @@
                 ], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "inprogress", 
-                "valgrind": "inprogress", 
+                "valgrind": "found", 
                 "material_budget": "not-found", 
-                "lizard": "inprogress", 
+                "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
@@ -11474,12 +11474,12 @@
                 "ib_date": "2018-03-13-2300-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc630", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/tue/10.1-tue-23/CMSSW_10_1_X_2018-03-13-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2101, 
+                            "num_passed": 2291, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -42634,9 +42634,9 @@
                 ], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "inprogress", 
-                "valgrind": "inprogress", 
+                "valgrind": "found", 
                 "material_budget": "not-found", 
-                "lizard": "inprogress", 
+                "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
