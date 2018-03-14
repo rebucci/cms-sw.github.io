@@ -482,9 +482,40 @@
     },
     {
         "exitcode": 23552,
+        "id": "250199.17",
+        "known_error": 0,
+        "name": "PREMIXUP17_PU25+PREMIXUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
         "id": "4.4",
         "known_error": 0,
         "name": "RunMinBias2012A+RunMinBias2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
+        "id": "6.0",
+        "known_error": 0,
+        "name": "SingleMuPt1+SingleMuPt1INPUT+DIGI+RECO+HARVEST",
         "steps": [
             {
                 "errors": 0,
@@ -703,6 +734,29 @@
                 "errors": 2,
                 "status": "FAILED",
                 "warnings": 17
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
+        "id": "50202.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 4
             }
         ]
     },
