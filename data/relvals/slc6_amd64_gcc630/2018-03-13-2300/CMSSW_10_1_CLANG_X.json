@@ -136,6 +136,39 @@
     },
     {
         "exitcode": 0,
+        "id": "4.17",
+        "known_error": 0,
+        "name": "RunMinBias2011A+RunMinBias2011A+HLTD+RECODR1reHLT+HARVESTDR1reHLT+SKIMDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 96
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 1463
+            },
+            {
+                "errors": 73,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 330
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.22",
         "known_error": 0,
         "name": "RunCosmics2011A+RunCosmics2011A+RECOCOSD+ALCACOSD+SKIMCOSD+HARVESTDC",
@@ -536,6 +569,34 @@
     },
     {
         "exitcode": 0,
+        "id": "16.0",
+        "known_error": 0,
+        "name": "SingleElectronPt1000+SingleElectronPt1000INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 251
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 970
+            },
+            {
+                "errors": 74,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "21.0",
         "known_error": 0,
         "name": "SingleMuPt100+SingleMuPt100INPUT+DIGI+RECO+HARVEST",
@@ -681,6 +742,62 @@
     },
     {
         "exitcode": 0,
+        "id": "28.0",
+        "known_error": 0,
+        "name": "QCD_Pt_80_120+QCD_Pt_80_120INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 500
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1109
+            },
+            {
+                "errors": 74,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "29.0",
+        "known_error": 0,
+        "name": "ZEE+ZEEINPUT+DIGI+RECOAlCaCalo+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 334
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 1554
+            },
+            {
+                "errors": 74,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "30.0",
         "known_error": 0,
         "name": "ZMM+ZMMINPUT+DIGI+RECO+HARVEST",
@@ -709,6 +826,34 @@
     },
     {
         "exitcode": 0,
+        "id": "31.0",
+        "known_error": 0,
+        "name": "ZTT+ZTTINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 414
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1080
+            },
+            {
+                "errors": 74,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "32.0",
         "known_error": 0,
         "name": "H130GGgluonfusion+H130GGgluonfusionINPUT+DIGI+RECO+HARVEST",
@@ -727,6 +872,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 1227
+            },
+            {
+                "errors": 74,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "33.0",
+        "known_error": 0,
+        "name": "PhotonJets_Pt_10+PhotonJets_Pt_10INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 93
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1285
             },
             {
                 "errors": 74,
@@ -793,6 +966,34 @@
     },
     {
         "exitcode": 0,
+        "id": "37.0",
+        "known_error": 0,
+        "name": "LM1_sfts+LM1_sftsINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 531
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1416
+            },
+            {
+                "errors": 74,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "38.0",
         "known_error": 0,
         "name": "QCD_FlatPt_15_3000HS+QCD_FlatPt_15_3000HSINPUT+DIGI+RECO+HARVEST",
@@ -839,6 +1040,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 2241
+            },
+            {
+                "errors": 74,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "43.0",
+        "known_error": 0,
+        "name": "ZpMM_2250_8TeV+ZpMM_2250_8TeVINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 272
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1190
             },
             {
                 "errors": 74,
@@ -3857,6 +4086,34 @@
                 "errors": 207,
                 "status": "PASSED",
                 "warnings": 2462
+            },
+            {
+                "errors": 1281,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.77",
+        "known_error": 0,
+        "name": "RunDoubleEG2016H+RunDoubleEG2016H+HLTDR2_2016+RECODR2_2016reHLT_skimDoubleEG_Prompt+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 224
+            },
+            {
+                "errors": 208,
+                "status": "PASSED",
+                "warnings": 2105
             },
             {
                 "errors": 1281,
