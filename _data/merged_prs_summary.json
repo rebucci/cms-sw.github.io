@@ -74,7 +74,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/wed/10.0-wed-11/CMSSW_10_0_X_2018-03-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1178, 
+                            "num_passed": 1225, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -11417,7 +11417,7 @@
                 "cmsdistTags": {
                     "slc6_amd64_gcc630": "IB/CMSSW_10_1_X_2018-03-12-2300/slc6_amd64_gcc630"
                 }, 
-                "flawfinder": "inprogress", 
+                "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "fwlite": [
@@ -11440,7 +11440,7 @@
                 ], 
                 "ib_date": "2018-03-14-1100-0000", 
                 "relvals": [], 
-                "igprof": "inprogress", 
+                "igprof": "found", 
                 "release_queue": "CMSSW_10_1_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
@@ -11465,7 +11465,14 @@
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc6_amd64_gcc630", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/wed/10.1-wed-11/CMSSW_10_1_X_2018-03-14-1100/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
@@ -42614,7 +42621,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/wed/9.4.MAOD-wed-11/CMSSW_9_4_MAOD_X_2018-03-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1545, 
+                            "num_passed": 1732, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
