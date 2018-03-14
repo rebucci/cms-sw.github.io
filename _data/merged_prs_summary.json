@@ -55,7 +55,7 @@
                     }
                 ], 
                 "compared_tags": "CMSSW_10_0_X_2018-03-13-2300-->CMSSW_10_0_X_2018-03-14-1100", 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc630", 
@@ -74,7 +74,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/wed/10.0-wed-11/CMSSW_10_0_X_2018-03-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 0, 
+                            "num_passed": 10, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -42554,7 +42554,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/wed/9.4.MAOD-wed-11/CMSSW_9_4_MAOD_X_2018-03-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 13, 
+                            "num_passed": 59, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -42562,7 +42562,7 @@
                 ], 
                 "igprof": "found", 
                 "release_queue": "CMSSW_9_4_MAOD_X", 
-                "comp_baseline": "inprogress", 
+                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_9_4_MAOD_X_2018-03-14-1100/slc6_amd64_gcc630/-GenuineIntel/matrix-results", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
                 "base_branch": "CMSSW_9_4_MAOD_X", 
